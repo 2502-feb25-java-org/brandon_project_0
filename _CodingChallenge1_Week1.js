@@ -12,3 +12,7 @@ function fizzbuzz(number) {
         return String(number);
     }
 }
+
+for (let i = 0; i < 1000; i++) {
+    console.log(fizzbuzz(i));
+}
